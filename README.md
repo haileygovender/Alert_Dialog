@@ -64,8 +64,8 @@ Open the project in Android Studio.
 Connect a physical device or use an emulator.
 
 Press Run ▶️ to build and launch the app.
-
-💬 Example Code Snippet
+---
+##💬 Example Code Snippet
 
 builder.setTitle("Facebook")
     .setMessage("Do you want to uninstall Facebook?")
@@ -75,6 +75,6 @@ builder.setTitle("Facebook")
     .setNegativeButton("No") { dialog, which ->
         dialog.dismiss()
     }
-
-📄 License
+---
+##📄 License
 This project is licensed under the MIT License.
